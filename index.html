@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>960gamerz PDF Editor</title>
+  <link rel="icon" href="logo.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Modern trending bg */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: rgba(255,255,255,0.9);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      height: 40px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    header h1 {
+      font-size: 24px;
+      color: #333;
+      margin: 0;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    input[type="file"] {
+      margin: 20px 0;
+    }
+    .editor-buttons button {
+      margin: 5px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgba(255,255,255,0.8);
+      font-size: 14px;
+    }
+    /* Ads container styling */
+    .ads {
+      margin: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo" onclick="window.open('https://960gamerz.github.io/Support-960gamerz-/','_blank')">
+  <h1>960gamerz PDF Editor</h1>
+</header>
+
+<main>
+  <input type="file" id="pdfFiles" multiple accept=".pdf,.jpg,.png">
+  <div class="editor-buttons">
+    <button onclick="alert('Merge function here')">Merge PDF</button>
+    <button onclick="alert('Split function here')">Split PDF</button>
+    <button onclick="alert('Compress function here')">Compress PDF</button>
+    <button onclick="alert('Convert function here')">Convert PDF</button>
+  </div>
+
+  <div class="ads">
+    <!-- Pounder Ads -->
+    <script type='text/javascript' src='//pl27588401.revenuecpmgate.com/f8/89/f9/f889f9c5c9b59d3fe55398aaaf8fcdf3.js'></script>
+
+    <!-- Social Ads -->
+    <script type='text/javascript' src='//pl27588405.revenuecpmgate.com/e4/fa/74/e4fa7449e634e7da702667cddea9bee1.js'></script>
+
+    <!-- Native Ads -->
+    <script async="async" data-cfasync="false" src="//pl27588410.revenuecpmgate.com/e17da51898992bd9dd451f0f96521a0e/invoke.js"></script>
+    <div id="container-e17da51898992bd9dd451f0f96521a0e"></div>
+  </div>
+</main>
+
+<footer>
+  © 960gamerz
+</footer>
+
+<script>
+  // Prevent ads from firing when clicking files
+  document.getElementById('pdfFiles').addEventListener('click', e => e.stopPropagation());
+</script>
+
+</body>
+</html>
